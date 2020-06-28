@@ -1,6 +1,3 @@
-# recipe-book
-Recipe app api
-
 
 ## Setup for Travis CI
 - First connect travis CI and GitHub Repo
