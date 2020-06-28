@@ -1,0 +1,21 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.pydocstyleEnabled": false,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "yapf",
+
+  "files.trimTrailingWhitespace": true,
+
+  "editor.rulers": [
+    {
+    "column": 79,
+    "color": "#40ff59"
+    },
+    {
+      "column": 100,
+      "color": "#ff00FF"
+    }
+  ],
+
+}
