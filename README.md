@@ -1,12 +1,10 @@
-# recipe-book
-Recipe app api
 
 ## Create Custom User Model
 
 - First create an app named `core` then specify `User` model
 
 `core.models`
-```sh
+```python
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager,\
     PermissionsMixin
@@ -49,7 +47,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 ```
 
 `core.tests.test_models`
-``` sh
+```python
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 
