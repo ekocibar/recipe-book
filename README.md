@@ -2,8 +2,8 @@
 ## Setup for Travis CI
 - First connect travis CI and GitHub Repo
 - Add `.travis.yml` file in root folder
-- File contains
 
+`.travis.yml`
 ```sh
 language: python
 python:
@@ -23,7 +23,8 @@ script:
 ## Setup for flake8
 - Add `.flake8` file into root of django app
 - You may ignore some [rules](https://flake8.pycqa.org/en/latest/user/error-codes.html)
-- File contains
+
+`app/flake8`
 ```sh
 [flake8]
 ignore = D203
